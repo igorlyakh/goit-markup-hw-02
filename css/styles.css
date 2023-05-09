@@ -7,23 +7,13 @@
 	--color-hover: #404bbf;
 	--light-gray: #f4f4fd;
 	--light-accent: #e7e9fc;
+	--default-bg: #ffffff;
 }
 
 body {
 	font-family: var(--main-font);
 	color: var(--color-text);
-}
-
-.visually-hidden {
-	position: absolute;
-	width: 1px;
-	height: 1px;
-	margin: -1px;
-	border: 0;
-	padding: 0;
-
-	white-space: nowrap;
-	overflow: hidden;
+	background-color: var(--default-bg);
 }
 
 .list {
@@ -66,13 +56,14 @@ body {
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
+	color: var(--accent-dark);
 }
 
 .descr {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
-	color: #434455;
+	color: var(--color-text);
 }
 
 .header {
@@ -86,12 +77,11 @@ body {
 	line-height: 1.17;
 	letter-spacing: 0.03em;
 	text-transform: uppercase;
-	text-decoration: none;
-	color: inherit;
+	color: var(--color-accent);
 }
 
-.logo > span {
-	color: var(--color-accent);
+.logo__end {
+	color: var(--accent-dark);
 }
 
 .menu a {
@@ -101,8 +91,11 @@ body {
 	letter-spacing: 0.02em;
 }
 
-.contacts a {
+.contacts {
 	font-style: normal;
+}
+
+.contacts a {
 	color: inherit;
 	font-size: 16px;
 	line-height: 1.5;
@@ -116,7 +109,7 @@ body {
 
 .hero__title {
 	font-size: 56px;
-	line-height: 60px;
+	line-height: 1.07;
 	letter-spacing: 0.02em;
 	color: #ffffff;
 }
