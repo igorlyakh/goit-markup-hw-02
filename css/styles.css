@@ -51,10 +51,6 @@ body {
 	line-height: 1.11;
 }
 
-.second__title {
-	color: var(--accent-dark);
-}
-
 .header {
 	border-bottom: 1px solid var(--light-accent);
 }
