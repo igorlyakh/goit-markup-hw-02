@@ -51,21 +51,6 @@ body {
 	line-height: 1.11;
 }
 
-.subtitle {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
-	letter-spacing: 0.02em;
-	color: var(--accent-dark);
-}
-
-.descr {
-	font-size: 16px;
-	line-height: 1.5;
-	letter-spacing: 0.02em;
-	color: var(--color-text);
-}
-
 .header {
 	border-bottom: 1px solid var(--light-accent);
 }
@@ -176,4 +161,19 @@ body {
 .porftfolio__btn:hover,
 .porftfolio__btn:focus {
 	color: #ffffff;
+}
+
+.subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--accent-dark);
+}
+
+.descr {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--color-text);
 }
