@@ -6,6 +6,7 @@
 	--header-font: "Raleway", sans-serif;
 	--color-hover: #404bbf;
 	--light-gray: #f4f4fd;
+	--light-accent: #e7e9fc;
 }
 
 body {
@@ -32,7 +33,6 @@ body {
 .btn {
 	border-radius: 4px;
 	border: none;
-	transition: color 0.3s ease-in-out;
 	cursor: pointer;
 	font-family: inherit;
 	font-weight: 500;
@@ -46,7 +46,6 @@ body {
 .link {
 	color: var(--accent-dark);
 	text-decoration: none;
-	transition: color 0.3s ease-in-out;
 }
 .link:hover,
 .link:focus {
@@ -60,6 +59,24 @@ body {
 	text-transform: capitalize;
 	font-size: 36px;
 	line-height: 1.11;
+}
+
+.subtitle {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.descr {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: #434455;
+}
+
+.header {
+	border-bottom: 1px solid var(--light-accent);
 }
 
 .logo {
@@ -132,24 +149,12 @@ body {
 	background: var(--light-gray);
 }
 
+.team__text {
+	text-align: center;
+}
+
 .team__person {
 	background: #ffffff;
-}
-
-.team__name {
-	font-weight: 500;
-	font-size: 20px;
-	line-height: 1.2;
-	text-align: center;
-	letter-spacing: 0.02em;
-}
-
-.team__position {
-	font-size: 16px;
-	line-height: 1.5;
-	text-align: center;
-	letter-spacing: 0.02em;
-	color: #434455;
 }
 
 .footer {
@@ -165,4 +170,17 @@ body {
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--light-gray);
+}
+
+.porftfolio__btn {
+	background: var(--light-gray);
+	border: 1px solid var(--light-accent);
+	font-size: 16px;
+	line-height: 1.5;
+	color: var(--color-accent);
+}
+
+.porftfolio__btn:hover,
+.porftfolio__btn:focus {
+	color: #ffffff;
 }
