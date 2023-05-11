@@ -7,13 +7,13 @@
 	--color-hover: #404bbf;
 	--light-gray: #f4f4fd;
 	--light-accent: #e7e9fc;
-	--default-bg: #ffffff;
+	--default-white: #ffffff;
 }
 
 body {
 	font-family: var(--main-font);
 	color: var(--color-text);
-	background-color: var(--default-bg);
+	background-color: var(--default-white);
 }
 
 .list {
@@ -112,7 +112,7 @@ body {
 	font-size: 56px;
 	line-height: 1.07;
 	letter-spacing: 0.02em;
-	color: #ffffff;
+	color: var(--default-white);
 }
 
 .hero__btn {
@@ -120,7 +120,7 @@ body {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.04em;
-	color: #ffffff;
+	color: var(--default-white);
 	background: var(--color-accent);
 	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
@@ -149,7 +149,7 @@ body {
 }
 
 .team__person {
-	background: #ffffff;
+	background: var(--default-white);
 }
 
 .footer {
@@ -178,5 +178,5 @@ body {
 
 .porftfolio__btn:hover,
 .porftfolio__btn:focus {
-	color: #ffffff;
+	color: var(--default-white);
 }
