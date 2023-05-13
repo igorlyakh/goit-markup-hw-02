@@ -43,7 +43,6 @@ body {
 }
 
 .title {
-	font-weight: 700;
 	text-align: center;
 	color: var(--accent-dark);
 	text-transform: capitalize;
